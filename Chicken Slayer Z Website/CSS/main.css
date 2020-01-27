@@ -1,0 +1,21 @@
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("../Pictures/DisplayPicture.jpg");
+  min-height: 50rem;
+}
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.lgimg-1{
+  background-position: left;
+  background-size: contain;
+  background-image: url("../Pictures/WebsiteLogo.jpg");
+  min-height: 3rem;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}

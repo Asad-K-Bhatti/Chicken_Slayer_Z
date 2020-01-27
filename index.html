@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chicken Slayer Z</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="Chicken Slayer Z Website/CSS/main.css">
+<link rel="stylesheet" type="text/css" href="Chicken Slayer Z Website/CSS/slideshow.css">
+<script src="Chicken Slayer Z Website/JAVASCRIPT/slideshow.js"></script>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button lgimg-1"> ----Chicken Invader Z---- </a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-gamepad"></i> WORK</a>
+      <a href="#screenshots" class="w3-bar-item w3-button"><i class="fa fa-desktop"></i> SCREENSHOTS</a>
+      <a href="#storyline" class="w3-bar-item w3-button"><i class="fa fa-book"></i> STORY</a>
+      <a href="#worldmessage" class="w3-bar-item w3-button"><i class="fa fa-globe"></i> WORLD MESSAGE</a>
+      <a href="#references" class="w3-bar-item w3-button"> REFERENCES</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#screenshots" onclick="w3_close()" class="w3-bar-item w3-button">SCREENSHOTS</a>
+  <a href="#storyline" onclick="w3_close()" class="w3-bar-item w3-button">STORY</a>
+  <a href="#worldmessage" onclick="w3_close()" class="w3-bar-item w3-button"></i> WORLD MESSAGE</a>
+  <a href="#references" onclick="w3_close()" class="w3-bar-item w3-button"></i> REFERENCES</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Do You Have What it Takes?</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Save the world one step at a time</span><br>
+    <span class="w3-large">Will you stop the Chicken Invaders?</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Save the world one step at a time</a></p>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THE GAME</h3>
+  <p class="w3-center w3-large">Consists of 4 parts</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-gamepad w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Main Game</p>
+      <p>The actual game play interface for the user.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-book w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Storyline</p>
+      <p>How the story in the main game progresses.</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-globe w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">World Message</p>
+      <p>A message about how you can save the world and become a hero!</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-list-alt w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">References</p>
+      <p>Where we found the information and resources for our game prototype</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>We know design, games, and environment.</h3>
+      <p>Our team has in depth understanding and knowledge about gaming as well as desgin/marketing. <br> With knowledge, experience and regular volunteers when working to save the planet.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> Look at Our Game</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="Chicken Slayer Z Website/Pictures/PromoPicture.jpg" alt="Gaming" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who run this company</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/w3images/team2.jpg" alt="Asad" style="width:100%">
+        <div class="w3-container">
+          <h3>Asad Bhatti</h3>
+          <p class="w3-opacity">Team Lead & Game Developer</p>
+          <p>Understanding of a large variety of gaming generes, styles and experiences. <br> Well versed with coding, art, desgin with softwares such as Python, Photoshop, HTML, and GIMP. <br> Volunteered and was a part of the community green team and ran workshops related to the environment.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 566609@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/w3images/team1.jpg" alt="Taha" style="width:100%">
+        <div class="w3-container">
+          <h3>Taha Ali</h3>
+          <p class="w3-opacity">Animator & Marketer</p>
+          <p>Background in visual editing, with subtle gaming knowledge. <br> Well versed with marketing through YouTube experience.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 591527@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/w3images/team3.jpg" alt="Daniel" style="width:100%">
+        <div class="w3-container">
+          <h3>Daniel Buwah</h3>
+          <p class="w3-opacity">Web Designer & Semi-Pro Gamer</p>
+          <p>Semi-Pro Gamer with an abundance of gaming knowledge as well as experience (Top 1000 Worldwide in Fortnite) <br> In depth understanding of web development softwares such as HTML and CSS</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 597944@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="/w3images/team4.jpg" alt="Jayson" style="width:100%">
+        <div class="w3-container">
+          <h3>Jayson Liao</h3>
+          <p class="w3-opacity">Editor & Analyst</p>
+          <p>An abundance of gaming experience with a varity of in depth knowledge in different gaming generes <br> In depth understanding of envorinmental issues, causes and effects</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> 571775@pdsb.net</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">100+</span>
+    <br>Green Team Community Hours
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">6</span>
+    <br>Years of Market Experience
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">23000+</span>
+    <br>Hours of Gaming Experience
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">4</span>
+    <br>Years of Programing Experience
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">Chicken Slayer Z</h3>
+  <p class="w3-center"> Click link below to Download! </p>
+   <img src="Chicken Slayer Z Website/Pictures/GameTitle.png" style="width:30rem" alt="Chicken Invader Z Game" class="center">
+  <p></p>
+      <a href="Chicken Slayer Z Game.zip" onclick="w_close()" class="center w3-bar-item w3-button w3-hover-grey"><strong>Chicken Slayer Z Game</strong></a>
+  <p class="w3-center"> Requirements: Mac/Windows OS, python and pygame </p>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Our Skills.</h3>
+      <p>With an abuncance of coding experience and gaming knowledge, our team is well equipped to develop and design a game for many people to enjoy.</p>
+      <p>With experience in HTML, CSS, Python, Pygame, and Phtotoshop we are able to make our dreams a reality and as a result produce a highly entertaining game thet you can enjoy </p>
+    </div>
+    <div class="w3-col m6">
+      <p class="w3-wide"><i class="fa fa-gamepad w3-margin-right"></i>Game Design</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:70%">70%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Photoshop</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:80%">80%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Screenshots Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="screenshots">
+  <h3>SCREENSHOTS</h3>
+  <p class="w3-large">What our game looks like</p>
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 4</div>
+      <img src="Chicken Slayer Z Website/Pictures/MainMenuSS.JPG" style="width:100%">
+      <div class="text">Main Menu Screen</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="Chicken Slayer Z Website/Pictures/Stage1SS.JPG" style="width:100%">
+      <div class="text">Level 1</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="Chicken Slayer Z Website/Pictures/Stage2SS.JPG" style="width:100%">
+      <div class="text">Level 2</div>
+    </div>
+    
+     <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="Chicken Slayer Z Website/Pictures/Stage3SS.JPG" style="width:100%">
+      <div class="text">Level 3</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+  </div>
+</div>
+
+<!-- Storyline Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="storyline">
+  <h3 class="w3-center">STORYLINE</h3>
+  <p class="w3-center w3-large">The Chicken Invader Z Storyline</p>
+  <div style="margin-top:48px">
+    <h4 class="w3-center">The Dawn of the Invaders</h4>
+    <p class="w3-center"> They are an intergalactic organization of humans bent on taking over (and later on destroying) Earth Chickens for oppressing their earthly brethren. They are known for being enormous (an ordinary chicken is as big as a small spaceship), being highly technologically advanced, as proven by many of the planet-sized constructions they can make like the CK-01 Henterprise and being an overall threat to the galaxy if not the whole universe. </p>
+    <h4 class="w3-center">A Hero Emerges</h4>
+    <pc lass="w3-center"> THe protagonist of the story, Our saviour who has a reputation of eating space burgers with a side of sesame seeds. This trained chicken knowledgeable and experienced in martial arts and kung-fu, is the earths last hope. Will he be able to save the chickens from the Invaders or will the Chicken </p>
+    <h4 class="w3-center">Average ASAD</h4>
+    <p class="w3-center"> We know very little about his past, but he must have appeared on an unknown planet, likely in the Foreign Galaxy, eventually becoming a space faring average chicken invader and becoming what he is today. Sometime in-between, his earthly brethren have also appeared on Earth. Sometime after in the neolithic age, chickens domesticated them and started exploiting them for labour. </p>
+    <h4 class="w3-center">Terrifying TALHA</h4>
+    <p class="w3-center"> Now that the Hero stopped their invasion of the Solar System for revenge on humanity, the Chicken Invaders want to completely destroy Earth. Their plan was to secretly send Terrifying Talha behind the sun, and use it to do just that. Our hero as usual went to the local Space Burger store to order a meal. Soon after that he noticed something behind the Sun, so he flew there and found Terrifying Talha still in its construction stages. After a short confrontation Terrifying Talha wanted to destroy the Hero by shooting its eggs at him. The Hero managed to defend himself from this attack, but he also got pushed into a Black Hole in the process, which sucked him in and had him arrive at the other end of the galaxy. After that, the Chicken Invaders dispatched troops across the galaxy to stop the hero before Terrifying Talha gets finished. The hero still manages to arrive at the Solar System just before Terrifying Talha was made operational, and destroys it, ending another invasion. </p>
+    <h4 class="w3-center">Abominable AHMED</h4>
+    <p class="w3-center"> After their second defeat, the Chicken Invaders made yet another plan to destroy humanity. This time they used the Abominable Ahmed to dispatch loads of feathers to block sunlight from coming to Earth, which would result in freezing it over. It eventually arrived to the Solar System and did that just as the hero noticed this. He then confronted the Abominable Ahmed, but it flew away just as he was about to destroy it. After a bit of talking with the Narrator, the hero went to Madam Madámme, the galactic oracle, amd consulted her on how to remove the sunlight-blocking feathers. While they were talking about having to construct and use the Humanity's Greatest Fan, the Chicken Invaders overheard them and dispatched their troops to these locations where they tried to get the Artifacts before him. The hero went across the galaxy, collected all of the Artifacts and consulted Madam on constructing the device. In the meantime, he also curiously stumbled upon the Abominable Ahmed retreating, which he still didn't get to defeat. He then had to land on Earth to mount the device, with there curiously being Chickens to stop him. He used it to blow the feathers off, but it also slightly pushed the Earth away from where it was. The Abominable AHmed then came back for revenge, and the hero destroyed it and ended the invasion once again. </p>
+  </div>
+</div>
+ 
+<!-- World Message Section -->
+<div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="worldmessage">
+  <h3>World Message</h3>
+  <p class="w3-large">Become a real life hero!</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-half">
+      <p class="w3-large">The Problem</p>
+      <p>No human technology can fully replace “nature’s technology”, perfected over hundreds of millions of years in delivering key services to sustain life on Earth. A productive, diverse natural world and a stable climate have been the basic assets at the foundation of the success of our civilization, and will continue to be so in future. A fundamental issue with previous technological revolutions has been the lightness with which we have taken for granted the natural environment rather than valuing it as a condition necessary to development.</p>
+      <p>Learn more <a href="https://www.weforum.org/agenda/2018/01/it-s-time-to-bring-our-planet-back-from-the-brink-together-now/" title="W3.CSS" target="_blank" class="w3-hover-text-purple">here</a></p>
+    </div>
+        <div class="w3-half">
+      <p class="w3-large">How You Can Help</p>
+      <p>Reuse, Reduce, Recycle --> Cut down on what you throw away. This conserves natural resources and landfill space.</p>
+      <p>Conserve Water --> The less water you use, the less runoff and wastewater that eventually end up in the ocean.</p>
+      <p>Shop wisely --> Buy less plastic and bring a reusable shopping bag.</p>
+      <p>Plant a tree --> Trees provide food and oxygen. They help save energy, clean the air, and help combat climate change.</p>
+      <p>Volunteer --> Volunteer for cleanups in your community. You can get involved in protecting your watershed, too.</p>
+      <p>Learn more <a href="https://oceanservice.noaa.gov/ocean/earthday.html" title="W3.CSS" target="_blank" class="w3-hover-text-purple">here</a></p>
+    </div>
+  </div>
+</div>
+  
+<!-- References Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="references">
+  <h3 class="w3-center">Game</h3>
+  <p class="w3-center w3-large">https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/2017/12/Game_Background_110.jpg</p>
+  <p class="w3-center w3-large">https://static3.scirra.net/images/newstore/products/112/splash.png</p>
+  <p class="w3-center w3-large">https://cdna.artstation.com/p/assets/images/images/007/382/336/large/nastya-friday-game-background-4.jpg?1505758875</p>
+  <p class="w3-center w3-large">http://kodlikes.com/go/aHR0cDovL3d3dy5zY2Fsc3lzLmNvbS8xYmFja2dyb3VuZHMvc3BhY2UtZ2FtZS1iYWNrZ3JvdW5kL3ZpZXctaW1hZ2UucGhwP2ZpbGU9Li9zcGFjZS1nYW1lLWJhY2tncm91bmRfMjA3MzE0OS5qcGc=</p>
+  <p class="w3-center w3-large">https://www.mobygames.com/images/shots/l/288376-chicken-invaders-revenge-of-the-yolk-christmas-edition-windows.png</p>
+  <p class="w3-center w3-large">data:image/jpeg;base64,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</p>
+  <h3 class="w3-center">Website</h3>
+  <p class="w3-center w3-large">https://www.w3schools.com/w3css/default.asp</p>
+  <p class="w3-center w3-large">https://www.weforum.org/agenda/2018/01/it-s-time-to-bring-our-planet-back-from-the-brink-together-now/</p>
+  <p class="w3-center w3-large">https://oceanservice.noaa.gov/ocean/earthday.html</p>
+  <p class="w3-center w3-large">https://wallpaperplay.com/walls/full/1/d/d/101186.jpg</p>
+  <p class="w3-center w3-large">https://stephanie.chezleskrus.com/assets/images/hero-gaming-1.jpg</p>
+  <p class="w3-center w3-large">https://i.ebayimg.com/images/g/m-wAAOSw9GhYdtSu/s-l300.jpg</p>
+</div>
+  
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-purple">w3.css</a></p>
+</footer>
+</body>
+</html>
