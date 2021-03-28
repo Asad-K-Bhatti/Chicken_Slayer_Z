@@ -1,4 +1,4 @@
-# Grade 12 Computer Science Summative
+# Chicken Slayer Z
 
 **Group Members -**
 Group Members participating in this project:
